@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* header start from here  */
+.apj_page .apj_main {
+    border: 15px solid rgb(29, 30, 76);
+    background-color: rgb(229, 229, 253);
+
+}
+.apj_page .apj_main .apj_header {
+    margin: auto;
+    width: 57%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 75px 0px;
+}
+
+.apj_page .apj_main .apj_header .apj_pict span {
+   display: block;
+   border-radius:45%;
+    overflow: auto;
+    width: 250px;
+}
+.apj_page .apj_main .apj_header .apj_pict span img {
+    width: 100%;
+}
+.apj_page .apj_main .apj_header .apj_heading {
+    font-weight: 500;
+}
+.apj_page .apj_main .apj_header .apj_heading .name {
+    font-size: 55px;
+}
+.apj_page .apj_main .apj_header .apj_heading span{
+    font-size: 25px;
+}
+
+/* header end here  */
+
+/* mid part start from here  */
+.apj_page .apj_main .apj_heading_para  {
+    margin: auto;
+    width: 90%;
+    padding-bottom: 35px;
+}
+.apj_page .apj_main .apj_heading_para .apj_heading {
+    padding-bottom: 10px;
+}
+.apj_page .apj_main .apj_heading_para .apj_heading span {
+    font-size: 50px;
+    font-weight: 600;
+}
+.apj_page .apj_main .apj_heading_para .apj_para p {
+    line-height: 30px;
+}
+
+
+/* biographies column start from here  */
+.apj_page .apj_main .apj_bio {
+    margin: auto;
+    width: 90%;
+}
+.apj_page .apj_main .apj_bio .bio_heading {
+    padding-bottom: 20px;
+}
+.apj_page .apj_main .apj_bio .bio_heading span{
+    font-size: 22px;
+    font-weight: 600;
+}
+.apj_page .apj_main .apj_bio .bio_para p {
+    line-height: 30px;
+}
+/* mid part end here  */
+
+
+/* footer start from here  */
+    .apj_page .apj_main .apj_footer {
+      text-align: end;
+      padding: 20px 0px;
+    }
+    .apj_page .apj_main .apj_footer span {
+        padding-right: 30px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .apj_page .apj_main .apj_footer span a{
+        text-decoration: none;
+        color: rgb(38, 97, 255);
+    }
+/* footer end here  */
